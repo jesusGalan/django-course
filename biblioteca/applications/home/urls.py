@@ -7,4 +7,5 @@ app_name = "home_app"
 
 urlpatterns = [
     path('index', views.IndexView.as_view(), name="index"),
+    path('books', views.ListLibreria.as_view(), name='list')
 ]
